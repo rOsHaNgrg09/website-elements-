@@ -1,0 +1,92 @@
+/* This sets the margin and font for the entire page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif, ;
+}
+
+header {
+  background-color: #333; /* Colors out of the background of the header */
+  color: #f5f1f1; /* Changes the color of the texts/letters */
+  padding: 20px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+h1 {
+  margin-right: auto;
+}
+
+/* This adds a class called logo for the image in he header */
+.logo {
+  margin-left: 1rem; /* adds 1 rem of margin to the left of the logo image */
+  height: 3rem; /* sets the height of the logo image to 3 rem */
+}
+
+/* This styles the unordered list in the navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: Flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #ebeee6; /* Makes the text white */
+  text-decoration: none; /* Removes the link line underneath the text */
+}
+
+main {
+  max-width: 1200px; /* Sets the maximum width of the main content to 1200 pixels */
+  margin: 0 auto; /* Centers the main content within its parent element using margin auto */
+  padding: 20px; /* Adds 20 pixels of padding to the main content */
+}
+
+.overview {
+  text-align: left; /* Aligns the text of the #landing element to the left */
+  margin-top: 50px; /* Adds a margin of 50 pixels to the top of the #landing element */
+}
+
+.largeheading{
+font-size: 5rem; /* set the size of the heading to 5rem*/
+color: dodgerblue; /* set the text color to dodgerblue*/
+font-weight: bold;
+}
+.centered {
+   text-align: center; /* Centers the content of the element horizontally */
+}
+#overview p {
+  font-size: 24px;/*sets the font size of the paragraph in the #landing elements to 24px*/
+  line-height: 1.5;/*sets the line height of the paragraph in the #landing elements to 1.5*/ 
+
+}
+/* this sets the style for the footer*/
+footer {
+  background-color: #111010; /* sets the baclkground color of the footer to dark grey */
+  color:#fff; /* sets the font color to white*/
+  padding:20px; /* add 20 pixels of the padding around the fooder content*/
+  display: flex; /* sets the footer to use flexbox layout*/
+  justify-content: space-between; /*horizontally aligns the content of the fodder */
+  align-items: center; /*vertically aligns the content of the fodder*/
+}
+/* this sets the style for thre social-media icons */
+.social-media {
+  list-style: none; /* removes margin from list*/
+  margin: 0; /*removest margin from list */
+  padding: 0; /*removest padding from list */
+  display: 0; /*removest display icon from list */
+}
+.social-media li {
+  display: inline-block;
+margin-right: 10px;
+}
+
+.social-media li img{
+  width: 50px;
+  height: 50px;
+}
+
